@@ -1,45 +1,93 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>A running compilation of what I've figured out so far</title>
+        
     </head>
     <body>
         <style>
-            h3 {
+            body {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                line-height: 24px;
+            }
+            a {
+                color:cadetblue;
+                font-size: 1.2em;
+            }
+            h4 {
                 font-family: Helvetica, monospace;
-                font-size: 1.5em;
+                font-style:italic;
+            }
+            h3 {
+                font-family: helvetica, monospace;
+                font-style: italic;
+                color:firebrick;
+            }
+            h2 {
+                font-family:Arial, Helvetica, sans-serif;
                 font-style:italic;
             }
             
-            h2 {
-                line-height:10px;
-            }
-            
             h1 {
-                line-height:10px;
-                font-family: helvetica, monospace;
+                line-height:13px;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                text-align: center;
+                color:burlywood;
+            }
+            .center {
+                display: block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            #post1{
+                color:firebrick;
+            }
+            #post2{
+                color:firebrick;
             }
         </style>
         
-        
-        <h1>Jonathan's blog</h1>
+        <h1><u>It's time to get started with this stuff</u></h1>
+        <br>
+        <br>
+        <img src="https://imgc.artprintimages.com/img/print/ohhh-alright-1964_u-l-enpvm0.jpg?artHeight=900&artPerspective=n&artWidth=900&background=fbfbfb" alt="Oh, alright." width="50%" class="center">
 
         <h3>Contents</h3>
-        <ul>
-            <li><a href = "#post1">First post!</a></li><br>
-            <li><a href = "#post2">Some meaningless stuff</a></li>
+        <ul>   
+            <li><a href = "#post2">Second post</a></li><br>
+            <li><a href = "#post1">First post!</a></li>
         </ul>
+        <br style="line-height:10px">
+
         
+        <h2 id = "post2"> Second post</h2>
+        <h4> October 15, 2022</h4>
+        
+        <p> This is here just to provide a link to make it snazzy enough to dig into and have something a bit more interactive on the page. I should probably start putting the more engaging content that I picked up along the way at the top- 
+            this is definitely not something that's particularly interesting just yet.
+        I've learned quite a bit about Javascript, HTML, but not a whole lot about CSS at this point. That shouldn't be too surprising, judging by the look of this page. The things that I have learned and need to keep in mind, I'm going to reference here:
+        <ul>
+        <li>The way to change a background is to put background-color before the colon and select the values from there.</li>
+       <li> I need to remember to call my elements in the style sheet without javascript formatting. That is hard to do when going from one language to the next with someone that is as new to this as I am.</li>
+       <li> The order to start an HTML document is html, head, charset, title, head, body, style.</li>
+       <li>The code to make a favicon at the top of the page is link rel="shortcut icon" href="favicon.ico" type="image/x-icon"</li>
+       <ul>
+        <li>It <strong>must</strong> be an icon file.</li>
+        </ul>
+       </ul>
+
+        </p>
+        <br style="line-height:30px">
+
         <h2 id = "post1">First post</h2>
-        <h4>April 20, 2022</h4>
+        <h4>October 15, 2022</h4>
         
-        <p>Something exciting happened. It was<strong> much more</strong> exciting today than it would have been any other time.</p>
+        <p>I'm going to go ahead and take the plunge and start messing with this blog to draw up a website inside of the <em><a href= "https://code.visualstudio.com">VS Code desktop app</a></em>. <br>
+            I don't know exactly what I'm doing yet, but I've learned enough at this point that I need to start to experiment with my own stuff.</p>
         
-        <h2 id = "post2"> Some meaningless stuff</h2>
-        <h4> January 1, 2021</h4>
-        
-        <p> We time traveled.</p>
-        
+     
     </body>
 </html>
